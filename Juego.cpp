@@ -7,7 +7,7 @@ void instruccion(void){
 
 int main()
 {
-    cout << "JUEGO DE PING PONG";
+    cout << "JUEGO DE EQUIS CERO";
     cout << "1. Jugar\n2. Ayuda\n3.Opciones";
 
     switch (num)
