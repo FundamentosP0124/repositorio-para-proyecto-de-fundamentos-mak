@@ -29,7 +29,7 @@ int main()
     {
         case 1:
         instruccion();
-        cout << "Desea ver *como jugar?* antes de comenzar?\n";
+        cout << "\nDesea ver *como jugar?* antes de comenzar?\n  SI   NO\n";
         cin >> opcion;
         cout << "\n";
         if (opcion == si || opcion == SI)
