@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
 
-// Constantes para el tamaño del tablero y los jugadores
 const int TAMANO = 3;
 const char JUGADOR_X = 'X';
 const char JUGADOR_O = 'O';
@@ -23,8 +22,8 @@ void mostrarTablero(char tablero[TAMANO][TAMANO]) {
             cout << tablero[i][j];
             if (j < TAMANO - 1) cout << " | ";
         }
-        cout << endl;
-        if (i < TAMANO - 1) cout << "--+---+--" << endl;
+        cout << "\n";
+        if (i < TAMANO - 1) cout << "--+---+--" << "\n";
     }
 }
 
