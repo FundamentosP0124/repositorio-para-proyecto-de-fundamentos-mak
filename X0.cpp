@@ -108,6 +108,4 @@ int main()
     iniciarPartida();
 
     return 0;
-}
-
- 
+} 
