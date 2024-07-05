@@ -1,10 +1,10 @@
 #include <iostream>
 using namespace std;
 
-const int TAMANO = 3;
-const char JUGADOR_X = 'X';
-const char JUGADOR_O = 'O';
-const char VACIO = ' ';
+ int TAMANO = 3;
+ char JUGADOR_X = 'X';
+ char JUGADOR_O = 'O';
+ char VACIO = ' ';
 
 // Función para inicializar el tablero vacío
 void inicializarTablero(char tablero[TAMANO][TAMANO]) {
