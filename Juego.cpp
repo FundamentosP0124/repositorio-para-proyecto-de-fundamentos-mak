@@ -24,9 +24,9 @@ void creadoras(void){
 int main()
 {
     int respuesta;
-    string opcion, si, no, SI, NO;
     cout << "JUEGO DE EQUIS-CERO";
     cout << "\n1. Jugar\n2. Ayuda\n3.Creadoras\n";
+    cout << "Si usted quiere empezar directamente con la seccion *ayuda* seleccione la opcion 2\n";
     cout << "(Selecciona una opcion)\n";
     cin >> respuesta;
 
@@ -34,14 +34,7 @@ int main()
     {
         case 1:
         instruccion();
-        cout << "Desea ver *como jugar?* antes de comenzar?\n";
-        cin >> opcion;
-        cout << "\n";
-        if (opcion == si || opcion == SI)
-        {
-            cout << endl;
-            ayuda();
-        }
+        break;
     
         case 2:
         ayuda();
