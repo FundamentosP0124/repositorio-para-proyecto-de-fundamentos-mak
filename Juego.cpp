@@ -7,7 +7,7 @@ void instruccion(void){
     cout << "Consiste en poner una X o un 0 de forma horizontal, diagonal o vertical\n";
 }
 void ayuda(void){
-     cout << "¿Como jugar?\n";
+    cout << "¿Como jugar?\n";
     cout << "EQUIS-CERO consiste en colocar X o 0 de manera que formen una fila, columna o diagonal\n";
     cout << "Gana quien complete primero una de estas tres formas\n";
     cout << "Para jugar, tiene que ingresar su nombre de jugador y entre parentesis se le indicara que tipo de opcion es (x) o (0)\n";
